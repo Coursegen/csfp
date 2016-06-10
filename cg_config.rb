@@ -22,8 +22,8 @@ LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
 
 # Sections in the right hand margin of the page
 SECTION_CONFIG = [
-  SectionDef.new("Notes", "notes", type: :section),
   SectionDef.new("Handbook", "handbook", type: :section),
+  SectionDef.new("Documents", "notes", type: :section),
   SectionDef.new("Lectures", "lectures",
                  hidden: true, type: :lecture, schedule: LECTURES_SCHEDULE_CONFIG),
   SectionDef.new("Extras", "extras", hidden: true, type: :section)
