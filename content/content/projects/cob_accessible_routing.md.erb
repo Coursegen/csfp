@@ -1,0 +1,34 @@
+---
+title: Accessible Pedestrian Routes
+partner: City of Boston
+date: fall 2016
+---
+<% tbh = TableHelper.new(:normal) %>
+<% tbh.headers("", "") %>
+<% tbh.row("Partner", "City of Boston") %>
+<% tbh.row("Date", "Fall 2016") %>
+<% tbh.row("", "") %>
+<%= tbh.render %>
+
+##### High level
+The high level goal of this project is make it easy people with disabilities to map accessible pedestrian routes across the city. What we are researching is whether an approach inspired by bicycle routes, and crowdsourced, is feasible and practical.
+
+The analogy with official bike routes or paths which are a subset of all streets but those that have been determined to be suitable for bicycles.
+
+We want to do the same thing for accessible routes through the City, and experiment with crowdsourcing the information.
+
+##### Preliminary plan
+
+1. We know that there are some existing apps that use crowdsourcing to collect information about accessible routes. Look at those apps, see how real they are, if appropriate make connections with the developers to see if there is anything to share or learn.
+
+1. Collect a small collection of routes that we know are good, which we intend to expand over time as more routes are determined to be suitable. Do this by talking to people at the City of Boston. Consider even a manual approach, using a map and a highlighter. Collect 2 or 3 to establish a baseline of requirements.
+
+1. Design the schema and backend to store specific accessible routes through the city from starting points to ending points, GPS locations, street by street info about how to cross, the condition of the sidewalk, curb cuts, obstacles, and any other necessary properties. Use the results of the data collection as sample data.
+
+1. Design a web site and an app to allow citizens to get information about how to get from Point A to Point B, which both shows the user the recommended route, and collects info about their needs of additional routes.
+
+1. The app can also serve to crowd source routes that are actually taken which then can serve to teach us what new routes we should add to the map.
+
+1. Write this up in a way to encourage interested other Cities to participate as pilot partners. See if we can advocate and evangelize to get them involved.
+
+1. Use this project and its results to persuade Google to make this part of their standard google map.

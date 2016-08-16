@@ -1,10 +1,10 @@
-<div class="container">
+<div class="container themebg">
   <div class="row">
     <div class="col-xs-7">
-      <a class="navbar-brand" href="/"><%= COURSE_SHORT_NAME %> - <%= COURSE_LONG_NAME %></a>
+      <a class="navbar-title" href="/"><%= COURSE_SHORT_NAME %> - <%= COURSE_LONG_NAME %></a>
     </div>
     <div class="col-xs-2">
-      <div class="btn-group">
+      <div class="nav-btn btn-group btn-group-xs">
         <%if citem.section != "root" %>
           <%= link_to_prev toc, item %> <%= link_to_next toc, item %>
         <% end %>

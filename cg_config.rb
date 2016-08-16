@@ -19,15 +19,15 @@ LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
   start_time: "15:00",
   end_time: "16:20")
 
-
 # Sections in the right hand margin of the page
 SECTION_CONFIG = [
   SectionDef.new("Handbook", "handbook", type: :section),
   SectionDef.new("Documents", "notes", type: :section),
+  SectionDef.new("Projects", "projects", type: :section),
   SectionDef.new("Lectures", "lectures",
                  hidden: true, type: :lecture, schedule: LECTURES_SCHEDULE_CONFIG),
   SectionDef.new("Extras", "extras", hidden: true, type: :section)
 ]
 # Options are:
 # bullet_style: css style for each bullet
-STYLING_CONFIG = { bullet_style: "\"font-size: 60%; width: 10px; color: grey\"" }
+STYLING_CONFIG = {bullet_style: "\"font-size: 60%; width: 10px; color: grey\""}
