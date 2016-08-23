@@ -1,0 +1,67 @@
+---
+title: Smart Lighting Systems
+partner: Digital Lumens
+date: fall 2016
+---
+<% tbh = TableHelper.new(:normal) %>
+<% tbh.headers("", "") %>
+<% tbh.row("Partner", "Digital Lumens (http://www.digitallumens.com)") %>
+<% tbh.row("Date", "Fall 2016") %>
+<% tbh.row("POC", "Brian Del Vecchio <bdelvecchio@digitallumens.com>") %>
+<% tbh.row("", "") %>
+<%= tbh.render %>
+
+#### Background
+
+[Digital Lumens](https://www.digitallumens.com) (DL) manufactures intelligent lighting systems which not only deliver savings over traditional lighting via highly efficient solid state LED light fixtures, but also act as a sensor network to collect information on occupancy, ambient light levels, and ambient temperature throughout a facility.
+
+DL has developed a new platform (internal name: LightWorks) with enhanced capabilities. The new platform includes a mobile app with the ability to change individual light level and giving administrators access to a full control and management system which provides historical reporting and real-time status on the state of the network.
+
+Importantly it also includes a cloud-based API provides historical data, a real-time event stream, and full control of the lighting system. The notion of having an API is brand new for DL!
+
+##### High Level Objective
+
+The high level objective of the field project are:
+
+1. Create a set of proof of concept uses of the API by imagining what could be done with the APIs as defined. Whether it be in data mining, smart behaviors, voice interactions, interfacing with other systems, energy management and savings, better human environments. This can take the form of an app, a web based application, data analysis, prediction or control. Really this is open ended and up to the students.
+
+1. In doing the preceding the team will also discover gaps in the API, capabilities that would be valuable and could be added. Also of interest would be the identification, design and even implementation of a higher level of abstraction object oriented "LightKit" library, for iOS and Android.
+
+This project will be built on the Digital Lumens API as a standalone open source project. While DL may implement some features in the product based on findings from this project, this work is intended as research and not software for production.
+
+##### Logistics
+
+DL will provide a lighting system to be installed in the common and office areas of the Computer Science department. The team will figure out where and how to get them installed, coordianting with the department and the University as required.
+
+Note that installation can be carried out by any electrical contractor with no special skills or training required. Digital Lumens can provide project planning including a site walkthrough and lighting plan. Digital Lumens will manage installation and initial configuration of the software system.
+
+#### Projects
+
+##### Initial Project Plan (steps sometimes can go in parallel)
+
+* Install a sample DL light into an outlet. Install whatever is available from DL in terms of apps and get it to work.
+* Study and understand whatever API documentation is available. Write some test programs to demonstrate that the API can be used in our environment.
+* Look at similar and competing systems for ideas of value added applications. Consider typical customer scenarios, where they are installed etc. Dig into DL's strategy to understand where they would like the product to go.
+* Brainstorm with team, with Brian, and Brandeis' own sustainability people for great ways to use the APIs and develop some project ideas based on this.
+* Design on paper, on screen or in code, some prototype ideas to actually develop.
+* See where we are.
+
+##### Initial project Ideas
+
+1. Analyze a combination of historical and real-time data to make suggestions, alert occupants or administrators of unusual conditions, or take action to adjust the lighting system for optimum comfort while maximizing energy savings.
+
+1. Using historical data to Identify patterns of occupant behavior, build a system which can accurately predict future behavior and adjust the lighting system based on the time of day or academic calendar.
+
+1. Add Bluetooth beacons as proximity sensors, enhancing the occupancy datastream with identification of individual occupants. Remembering each occupant's preferred light levels, adjust the light levels automatically when they enter the lab or an office.
+
+1. Add Alexa integration so that users can control the lighting system by voice.
+
+1. Integrate with a conference room scheduling system or calendar and set light levels accordingly. Also, matching real-time occupancy against the schedule, note when a scheduled meeting does not occur, and cancel the meeting so that others know the room is available (or simply query the event organizer via email). If a room becomes occupied when there is no scheduled meeting, identify any participants and create a meeting so that others know the room is not available. If you can identify any users in the room, ask them how long they'll be using the room.
+
+1. enhance some existing campus system using insights derived from LightWorks.
+
+
+##### References
+
+* [Digital Lumens Linear Lighting Products](https://www.digitallumens.com/products/led-linear-lighting/)
+* [LightRules](https://www.digitallumens.com/products/lightrules/)
