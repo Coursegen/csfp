@@ -24,6 +24,7 @@ SECTION_CONFIG = [
   SectionDef.new("Handbook", "handbook", type: :section),
   SectionDef.new("Documents", "notes", type: :section),
   SectionDef.new("Projects", "projects", type: :section),
+  SectionDef.new("Topics", "topics", hidden: true, type: :section),
   SectionDef.new("Lectures", "lectures",
                  hidden: true, type: :lecture, schedule: LECTURES_SCHEDULE_CONFIG),
   SectionDef.new("Extras", "extras", hidden: true, type: :section)
