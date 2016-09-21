@@ -1,0 +1,45 @@
+---
+title: Final Deliverables
+desc: Section reviews the detailed deliverables that are required for successful completion of this course, including the grading rubric
+---
+A high level objective for the complete set of deliverables is that it sets the stage to allow the partner to continue the project at a later date.
+
+A general expectation is that all the deliverables be well written, spell checked, documented, professional looking, with a good fit and finish. They should not contain any trade secrets or other private content. In particular make sure that when you mention someone's name or contact info, that this person agrees that the info will appear on a public web site.
+
+However the team retains copyright ownership to whatever it generates, as long as it is governed by an open source or creative commons license which would permit the partner access and use.
+
+#### Deliverables
+
+##### Partner Presentation
+A presentation delivered at the end of the semester where the team shows off what has been accomplished during the term. The specifics depend of course on each project. The audience will be the POC and any invited guests from the partner. It should run no more than one hour.
+
+This includes a powerpoint or equivalent, a demo in addition to the live presentation. The live presentation should be rehearsed by the team.
+
+##### Online Report
+An attractive mini-web-site that summarizes and describes the project. Think of this as the project brochure or home page. Note: this is describing the project, your process and outcomes, not just the “product” that you created.
+
+It should include the objectives, results, code, architecture, designs, user research, academic papers, installations instructions, suggestions for further work, introduction to team members and/or anything else.
+
+This should be in the form of a set of web pages published in a public place. I recommend that you use the static pages feature of github and tie it directly to the github account with your technical artifacts.
+
+##### Github repo
+A repo containing the overall work product of the team. Drawings, surveys, spreadsheets, source code, charts and graphs, whatever the artifacts that are created. This should all be in well organized github repo, including a readme and a open source/public domain license.
+
+##### Project Specsheet
+This is a JSON file describing the project. It is used to automatically build and add to the [Brandeis Cosi Projects Site](http://pitosalas.github.io/brandeisprojects/), which is a public web site.
+
+The team creates a file and submits it to Pito and your project will be added to the list. The `project specsheet` is a file with the folliwing content:
+<%= code_begin %>
+---
+name: [Project name or title]
+blurb: [Very short (200 chars approx) description of the product]
+course: [Cosi Field Project or Cosi166b etc.]
+semester: YEAR (semester)
+github: [URL to github repo]
+portfolio: [URL to Online Report]
+presentation: [URL to Partner Presentation]
+image: [URL to an evocative, squareish image]
+---
+[This area is formatted as Markdown. It's content is up to you, but it may include additional information about the project, student names, emails, linkedin, links to resumes, partner web sites, whatever you think would add to your representation on the web.]
+
+<%= code_end %>
