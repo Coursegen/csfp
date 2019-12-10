@@ -25,10 +25,10 @@ SECTION_CONFIG = [
   SectionDef.new("Documents", "notes", type: :section),
   SectionDef.new("Projects", "projects", type: :section),
   SectionDef.new("Topics", "topics", hidden: true, type: :section),
-  SectionDef.new("Lectures", "lectures",
-                 hidden: true, type: :lecture, schedule: LECTURES_SCHEDULE_CONFIG),
   SectionDef.new("Extras", "extras", hidden: true, type: :section)
 ]
 # Options are:
 # bullet_style: css style for each bullet
 STYLING_CONFIG = {bullet_style: "\"font-size: 60%; width: 10px; color: grey\""}
+HELPFUL_BOX = false
+HOME_PAGE = "/content/welcome/01_syllabus.md.erb"
