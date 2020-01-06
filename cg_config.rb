@@ -31,4 +31,4 @@ SECTION_CONFIG = [
 # bullet_style: css style for each bullet
 STYLING_CONFIG = {bullet_style: "\"font-size: 60%; width: 10px; color: grey\""}
 HELPFUL_BOX = false
-HOME_PAGE = "/content/handbook/01_preface.md/"
+HOME_PAGE = "/content/handbook/01_preface.md.erb"
